@@ -4,10 +4,10 @@ import CarValue from "./components/CarValue";
 import CarList from "./components/CarsList";
 
 function App () {
-    return <div>
+    return <div className="container is-fluid">
         <CarForm />
-        <CarList />
         <CarSearch />
+        <CarList />
         <CarValue />
     </div>
 }
